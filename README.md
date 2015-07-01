@@ -13,4 +13,4 @@ sbt assembly
 
 - edit cassandra-example.conf. Set the `master` and `cassandra` connection to your particular environment.
 
-- your-path-to-spark/bin/spark-submit --properties-file cassandra-example.conf --class net.cakesolutions.CassandraExample target/scala-2.10/cassandra-example-0.1-SNAPSHOT.jar
+- your-path-to-spark/bin/spark-submit --properties-file cassandra-spark-example.conf --class net.cakesolutions.CassandraSparkExample target/scala-2.10/cassandra-example-assembly-0.1-SNAPSHOT.jar
